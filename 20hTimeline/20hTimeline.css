@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+.timeline__container,
+.timeline__container * {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.timeline__container {
+	width: 500px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.timeline__container-header {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.timeline__container-header h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 1.25rem;
+	color: dimgray;
+	margin: 0;
+}
+
+.timeline__content {
+	max-height: 500px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* Single item style */
+.timeline__user-activity {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 90px;
+	align-items: center;
+	padding: 0 20px;
+	border-bottom: 1px solid #dedede;
+}
+
+.timeline__user-activity:last-child {
+	border: none;
+}
+
+.timeline__user-avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #eee;
+}
+
+.timeline__activity-info {
+	width: 70%;
+	max-height: 50px;
+	margin-left: 15px;
+	font-size: 1.05rem;
+}
+
+.timeline__date-info {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	color: dimgray;
+	font-size: 0.8rem;
+}
+
+.timeline__bolder {
+	font-family: 'Roboto';
+	font-weight: 500;
+}
